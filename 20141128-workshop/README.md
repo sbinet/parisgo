@@ -97,22 +97,22 @@ For this part, you'll need the following tools installed to actually retrieve th
 Without further ado:
 
 ```sh
-$ go get -u -v github.com/sbinet/ji-2014-go/cmd/ji-hello
+$ go get -u -v github.com/sbinet/parisgo/20141128-workshop/cmd/parisgo-hello
 ```
 
 `go get` downloaded (cloned, in `git` speak) the whole
-`github.com/sbinet/ji-2014-go` repository (under `$GOPATH/src`) and
-compiled the `ji-hello` command.
-As the compilation was successful, it also installed the `ji-hello`
+`github.com/sbinet/parisgo` repository (under `$GOPATH/src`) and
+compiled the `parisgo-hello` command.
+As the compilation was successful, it also installed the `parisgo-hello`
 command under `$GOPATH/bin`.
 
-The `ji-hello` command is now available from your shell:
+The `parisgo-hello` command is now available from your shell:
 
 ```sh
-$ ji-hello
-Hello JI-2014!
+$ parisgo-hello
+Hello ParisGo-2014!
 
-$ ji-hello you
+$ parisgo-hello you
 Hello you!
 ```
 

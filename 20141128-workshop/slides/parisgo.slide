@@ -408,7 +408,7 @@ Algorithm:
 
 Let's create a new program called `indexer`.
 
-Initial code in: [[http://github.com/sbinet/ji-2014-go/blob/master/indexer/main.go][github.com/sbinet/ji-2014-go/indexer]]
+Initial code in: [[http://github.com/sbinet/parisgo/blob/master/20141128-workshop/indexer/main.go][github.com/sbinet/parisgo/20141128-workshop/indexer]]
 
 * Processing a Go source file
 
@@ -569,7 +569,7 @@ Most of this tutorial has been extracted or adapted from:
 
 Let's create a new `extra-01` program which will open a text file and count words in it:
 
-  $ extra-01 github.com/sbinet/ji-2014-go/testdata/lorem-ipsum.txt
+  $ extra-01 github.com/sbinet/parisgo/20141128-workshop/testdata/lorem-ipsum.txt
   69
 
 *Hint:* `godoc` `os` `Open`
