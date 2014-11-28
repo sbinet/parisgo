@@ -142,7 +142,7 @@ For this tutorial, let us all use `"github.com/parisgo"`
 Create a `hello` directory in your namespace and copy `hello.go` there:
   
   $ mkdir $GOPATH/src/github.com/parisgo/hello
-  $ cp hello.go $GOPATH/src/github.com/parisgo/hello
+  $ cp hello.go $GOPATH/src/github.com/parisgo/hello/main.go
 
 Now you can build and install the hello program with the `go` tool:
 
